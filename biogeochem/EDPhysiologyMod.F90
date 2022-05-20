@@ -1392,7 +1392,7 @@ contains
        site_seed_rain(:) = 0._r8
 
        !YL-------
-       disp_frac(:) = 0.2       ! to be specified in the parameter file or calculated using dispersal kernel 
+       disp_frac(:) = 0 !0.2       ! to be specified in the parameter file or calculated using dispersal kernel 
        !---------
 
        element_id = element_list(el)
